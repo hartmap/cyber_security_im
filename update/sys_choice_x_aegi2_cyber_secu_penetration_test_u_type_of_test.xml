@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_type_of_test" table="x_aegi2_cyber_secu_penetration_test" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type_of_test</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internal</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_penetration_test</name>
+            <sequence>0</sequence>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-21 16:06:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f76f02274f505380f2a00195f110c710</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-21 16:06:06</sys_updated_on>
+            <value>Internal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type_of_test</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>External</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_penetration_test</name>
+            <sequence>1</sequence>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-21 16:06:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>776f02274f505380f2a00195f110c713</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-21 16:06:06</sys_updated_on>
+            <value>External</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_type_of_test</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Web</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_penetration_test</name>
+            <sequence>2</sequence>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-21 16:06:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>336f02274f505380f2a00195f110c716</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-21 16:06:06</sys_updated_on>
+            <value>Web</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_type_of_test</element>
+            <name>x_aegi2_cyber_secu_penetration_test</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-21 16:06:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>336f02274f505380f2a00195f110c713</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_type_of_test</sys_name>
+            <sys_package display_value="Cyber Security Information" source="x_aegi2_cyber_secu">759e51134f549f408f458a4e0210c7b3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cyber Security Information">759e51134f549f408f458a4e0210c7b3</sys_scope>
+            <sys_update_name>sys_choice_x_aegi2_cyber_secu_penetration_test_u_type_of_test</sys_update_name>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-21 16:06:06</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

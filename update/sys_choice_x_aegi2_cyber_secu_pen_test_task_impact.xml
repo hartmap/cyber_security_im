@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="impact" table="x_aegi2_cyber_secu_pen_test_task" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Very Low</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_pen_test_task</name>
+            <sequence>0</sequence>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-21 16:39:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>290756e34f90df408f458a4e0210c79e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-21 16:39:16</sys_updated_on>
+            <value>21</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Low</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_pen_test_task</name>
+            <sequence>1</sequence>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-21 16:38:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4ae652274f90df408f458a4e0210c720</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-21 16:38:45</sys_updated_on>
+            <value>22</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Moderate</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_pen_test_task</name>
+            <sequence>2</sequence>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-21 16:38:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cdf656234f90df408f458a4e0210c7bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-21 16:38:57</sys_updated_on>
+            <value>23</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>High</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_pen_test_task</name>
+            <sequence>6</sequence>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-21 16:38:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>76d65aa34f90df408f458a4e0210c741</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-21 16:38:31</sys_updated_on>
+            <value>24</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>impact</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Very High</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_pen_test_task</name>
+            <sequence>7</sequence>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-21 16:39:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>aff6d6e34f90df408f458a4e0210c7a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-21 16:39:08</sys_updated_on>
+            <value>25</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>impact</element>
+            <name>x_aegi2_cyber_secu_pen_test_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-21 16:38:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>76d65aa34f90df408f458a4e0210c743</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>impact</sys_name>
+            <sys_package display_value="Cyber Security Information" source="x_aegi2_cyber_secu">759e51134f549f408f458a4e0210c7b3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cyber Security Information">759e51134f549f408f458a4e0210c7b3</sys_scope>
+            <sys_update_name>sys_choice_x_aegi2_cyber_secu_pen_test_task_impact</sys_update_name>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-21 16:38:31</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

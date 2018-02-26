@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="subcategory" table="x_aegi2_cyber_secu_information_security_incident" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Information Security Incident</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Denial-of-Service</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-20 20:48:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f3868e9b4fd49f408f458a4e0210c711</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-20 20:48:50</sys_updated_on>
+            <value>Denial-of-Service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Information Security Incident</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Malicious Code</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-20 20:49:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7b9682db4fd49f408f458a4e0210c77c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-20 20:49:07</sys_updated_on>
+            <value>Malicious Code</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Information Security Incident</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Reconnaissance</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-20 20:49:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>67a686db4fd49f408f458a4e0210c729</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-20 20:49:22</sys_updated_on>
+            <value>Reconnaissance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Information Security Incident</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Social Engineering</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-20 20:49:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>cfb6869b4fd49f408f458a4e0210c7b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-20 20:49:37</sys_updated_on>
+            <value>Social Engineering</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Information Security Incident</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Technical Vulnerability</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-20 20:49:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>aec60a9b4fd49f408f458a4e0210c7d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-20 20:49:51</sys_updated_on>
+            <value>Technical Vulnerability</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Information Security Incident</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Theft/Loss of Equipment or Media</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-20 20:50:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f2d606db4fd49f408f458a4e0210c744</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-20 20:50:09</sys_updated_on>
+            <value>Theft/Loss of Equipment or Media</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Information Security Incident</dependent_value>
+            <element>subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unauthorized Access</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_information_security_incident</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-20 20:50:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>36e68a9b4fd49f408f458a4e0210c71f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-20 20:50:25</sys_updated_on>
+            <value>Unauthorized Access</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>subcategory</element>
+            <name>x_aegi2_cyber_secu_information_security_incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-20 20:48:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8f7606db4fd49f408f458a4e0210c741</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>subcategory</sys_name>
+            <sys_package display_value="Cyber Security Information" source="x_aegi2_cyber_secu">759e51134f549f408f458a4e0210c7b3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cyber Security Information">759e51134f549f408f458a4e0210c7b3</sys_scope>
+            <sys_update_name>sys_choice_x_aegi2_cyber_secu_information_security_incident_subcategory</sys_update_name>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-20 20:48:31</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

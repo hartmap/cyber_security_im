@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Pen Test Task" max_length="40" name="x_aegi2_cyber_secu_pen_test_task" sizeclass="1" type="collection">
+        <element label="Penetration Test" max_length="32" name="penetration_test" read_only="true" reference="x_aegi2_cyber_secu_penetration_test" type="reference"/>
+    </element>
+</database>

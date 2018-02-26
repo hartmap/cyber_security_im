@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="incident" label="Penetration Test" max_length="40" name="x_aegi2_cyber_secu_penetration_test" sizeclass="2" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Test" mandatory="true" max_length="40" name="u_type_of_test" type="string">
+            <choice>
+                <element label="Internal" sequence="0" value="Internal"/>
+                <element label="External" sequence="1" value="External"/>
+                <element label="Web" sequence="2" value="Web"/>
+            </choice>
+        </element>
+    </element>
+</database>

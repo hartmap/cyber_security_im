@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="category" table="x_aegi2_cyber_secu_information_security_incident" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_information_security_incident</name>
+            <sequence>0</sequence>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-20 20:44:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>72950a9b4fd49f408f458a4e0210c7fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-20 20:44:41</sys_updated_on>
+            <value>request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Inquiry / Help</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_information_security_incident</name>
+            <sequence>1</sequence>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-20 20:44:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fe950a9b4fd49f408f458a4e0210c7fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-20 20:44:41</sys_updated_on>
+            <value>inquiry</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Software</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_information_security_incident</name>
+            <sequence>2</sequence>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-20 20:44:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ba950a9b4fd49f408f458a4e0210c7ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-20 20:44:41</sys_updated_on>
+            <value>software</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hardware</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_information_security_incident</name>
+            <sequence>3</sequence>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-20 20:44:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>76954a9b4fd49f408f458a4e0210c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-20 20:44:41</sys_updated_on>
+            <value>hardware</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Network</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_information_security_incident</name>
+            <sequence>4</sequence>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-20 20:44:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7e95ce9b4fd49f408f458a4e0210c7c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-20 20:44:41</sys_updated_on>
+            <value>network</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Database</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_information_security_incident</name>
+            <sequence>5</sequence>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-20 20:44:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3a95ce9b4fd49f408f458a4e0210c7c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-20 20:44:41</sys_updated_on>
+            <value>database</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Information Security Incident</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_information_security_incident</name>
+            <sequence>6</sequence>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-20 20:44:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f295ce9b4fd49f408f458a4e0210c7cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-20 20:44:41</sys_updated_on>
+            <value>Information Security Incident</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <name>x_aegi2_cyber_secu_information_security_incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-02-20 20:44:41</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>fa950a9b4fd49f408f458a4e0210c7fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>category</sys_name>
+            <sys_package display_value="Cyber Security Information" source="x_aegi2_cyber_secu">759e51134f549f408f458a4e0210c7b3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cyber Security Information">759e51134f549f408f458a4e0210c7b3</sys_scope>
+            <sys_update_name>sys_choice_x_aegi2_cyber_secu_information_security_incident_category</sys_update_name>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-02-20 20:44:41</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

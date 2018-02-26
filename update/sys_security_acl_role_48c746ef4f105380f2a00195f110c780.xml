@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>hartmap</sys_created_by>
+        <sys_created_on>2018-02-21 15:32:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>48c746ef4f105380f2a00195f110c780</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_aegi2_cyber_secu_penetration_test.x_aegi2_cyber_secu.user</sys_name>
+        <sys_package display_value="Cyber Security Information" source="x_aegi2_cyber_secu">759e51134f549f408f458a4e0210c7b3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cyber Security Information">759e51134f549f408f458a4e0210c7b3</sys_scope>
+        <sys_security_acl display_value="x_aegi2_cyber_secu_penetration_test">08c746ef4f105380f2a00195f110c77d</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_48c746ef4f105380f2a00195f110c780</sys_update_name>
+        <sys_updated_by>hartmap</sys_updated_by>
+        <sys_updated_on>2018-02-21 15:32:32</sys_updated_on>
+        <sys_user_role display_value="x_aegi2_cyber_secu.user" name="x_aegi2_cyber_secu.user">b59ed55f4f549f408f458a4e0210c7dd</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

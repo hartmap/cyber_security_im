@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="INSERT_OR_UPDATE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>incident</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value>Information Security Incident</default_value>
+        <default_value_override>true</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>false</display_override>
+        <element>category</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_aegi2_cyber_secu_information_security_incident</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>hartmap</sys_created_by>
+        <sys_created_on>2018-02-20 20:45:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3ba542db4fd49f408f458a4e0210c71d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>category</sys_name>
+        <sys_package display_value="Cyber Security Information" source="x_aegi2_cyber_secu">759e51134f549f408f458a4e0210c7b3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cyber Security Information">759e51134f549f408f458a4e0210c7b3</sys_scope>
+        <sys_update_name>sys_dictionary_override_3ba542db4fd49f408f458a4e0210c71d</sys_update_name>
+        <sys_updated_by>hartmap</sys_updated_by>
+        <sys_updated_on>2018-02-20 20:45:30</sys_updated_on>
+    </sys_dictionary_override>
+</record_update>
