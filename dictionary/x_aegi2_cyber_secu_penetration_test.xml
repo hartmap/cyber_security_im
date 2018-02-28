@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="incident" label="Penetration Test" max_length="40" name="x_aegi2_cyber_secu_penetration_test" sizeclass="2" type="collection">
+    <element extends="incident" label="Penetration Test" max_length="40" name="x_aegi2_cyber_secu_penetration_test" type="collection">
+        <element label="Re-test" max_length="40" name="u_retest" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Test" mandatory="true" max_length="40" name="u_type_of_test" type="string">
             <choice>
                 <element label="Internal" sequence="0" value="Internal"/>
                 <element label="External" sequence="1" value="External"/>
                 <element label="Web" sequence="2" value="Web"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="2018" label="Year" mandatory="true" max_length="40" name="u_year" type="string">
+            <choice>
+                <element label="2017" sequence="0" value="2017"/>
+                <element label="2018" sequence="1" value="2018"/>
+                <element label="2019" sequence="2" value="2019"/>
+                <element label="2020" sequence="3" value="2020"/>
+                <element label="2021" sequence="4" value="2021"/>
+                <element label="2022" sequence="5" value="2022"/>
+                <element label="2023" sequence="6" value="2023"/>
             </choice>
         </element>
     </element>

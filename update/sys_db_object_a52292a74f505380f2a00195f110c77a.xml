@@ -18,9 +18,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <super_class display_value="ers" name="task">8c727e77fdeb300058483f6ad72f8f2f</super_class>
-        <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
-        <sys_class_path/>
         <sys_created_by>hartmap</sys_created_by>
         <sys_created_on>2018-02-21 16:18:44</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
