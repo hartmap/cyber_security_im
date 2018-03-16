@@ -5,6 +5,7 @@
         <script><![CDATA[message = "➤ " + current.short_description + '\n     ' + current.impact.element + '\n     ' + current.state;  
 answer = message;]]></script>
         <search_fields>short_description,number,subcategory</search_fields>
+        <style_field/>
         <sys_class_name>sys_ui_title</sys_class_name>
         <sys_created_by>hartmap</sys_created_by>
         <sys_created_on>2018-02-21 20:09:00</sys_created_on>

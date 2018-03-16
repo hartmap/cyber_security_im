@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>GRC</name>
+        <order/>
+        <roles>itil,grc_admin,grc_audit_definition_admin,grc_test_definition_admin,grc_user,grc_audit_reader,grc_compliance_reader,grc_control_test_reader,grc_audit_reviewer,grc_compliance_approver,GRC Executive Approver</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>hartmap</sys_created_by>
+        <sys_created_on>2018-03-16 15:05:00</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>3c0e94074f785700f2a00195f110c700</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GRC</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cyber Security Information" source="x_aegi2_cyber_secu">759e51134f549f408f458a4e0210c7b3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cyber Security Information">759e51134f549f408f458a4e0210c7b3</sys_scope>
+        <sys_update_name>sys_ui_application_3c0e94074f785700f2a00195f110c700</sys_update_name>
+        <sys_updated_by>hartmap</sys_updated_by>
+        <sys_updated_on>2018-03-16 15:05:00</sys_updated_on>
+    </sys_ui_application>
+</record_update>

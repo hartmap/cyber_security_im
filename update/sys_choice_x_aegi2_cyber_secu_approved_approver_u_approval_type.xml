@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_approval_type" table="x_aegi2_cyber_secu_approved_approver" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Divisional Discretionary Requests &lt; $10,000</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_approved_approver</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-16 17:22:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>886df48f4fb85700f2a00195f110c779</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-16 17:22:53</sys_updated_on>
+            <value>100</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Divisional Discretionary Projects $10,000 - $50,000</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_approved_approver</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-16 17:23:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>20adb48f4fb85700f2a00195f110c797</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-16 17:23:09</sys_updated_on>
+            <value>200</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Divisional Strategic Projects &gt; $50,000</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_approved_approver</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-16 17:23:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>f8bdb88f4fb85700f2a00195f110c77f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-16 17:23:26</sys_updated_on>
+            <value>300</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UAT Approval</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_approved_approver</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-16 17:23:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3fbdfc434fb85700f2a00195f110c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-16 17:23:39</sys_updated_on>
+            <value>400</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_approval_type</element>
+            <name>x_aegi2_cyber_secu_approved_approver</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-16 17:22:53</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b49df48f4fb85700f2a00195f110c702</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_approval_type</sys_name>
+            <sys_package display_value="Cyber Security Information" source="x_aegi2_cyber_secu">759e51134f549f408f458a4e0210c7b3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cyber Security Information">759e51134f549f408f458a4e0210c7b3</sys_scope>
+            <sys_update_name>sys_choice_x_aegi2_cyber_secu_approved_approver_u_approval_type</sys_update_name>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-16 17:22:53</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

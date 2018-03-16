@@ -18,7 +18,9 @@
         <provider_class/>
         <read_access>true</read_access>
         <super_class display_value="Incident" name="incident">c4727e77fdeb300058483f6ad72f8f30</super_class>
+        <sys_class_code/>
         <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
         <sys_created_by>hartmap</sys_created_by>
         <sys_created_on>2018-02-20 19:41:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>

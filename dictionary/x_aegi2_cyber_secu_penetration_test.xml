@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="incident" label="Penetration Test" max_length="40" name="x_aegi2_cyber_secu_penetration_test" type="collection">
+    <element extends="incident" label="Penetration Test" max_length="40" name="x_aegi2_cyber_secu_penetration_test" sizeclass="3" type="collection">
         <element label="Re-test" max_length="40" name="u_retest" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Test" mandatory="true" max_length="40" name="u_type_of_test" type="string">
             <choice>

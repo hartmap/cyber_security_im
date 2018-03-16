@@ -9,6 +9,7 @@
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_aegi2_cyber_secu.user</name>
+        <scoped_admin>false</scoped_admin>
         <suffix>user</suffix>
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>hartmap</sys_created_by>

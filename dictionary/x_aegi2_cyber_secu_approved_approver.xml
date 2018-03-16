@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Approved Approver" max_length="40" name="x_aegi2_cyber_secu_approved_approver" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Approval Type" mandatory="true" max_length="40" name="u_approval_type" type="string">
+            <choice>
+                <element label="Divisional Discretionary Projects $10,000 - $50,000" value="200"/>
+                <element label="Divisional Discretionary Requests &lt; $10,000" value="100"/>
+                <element label="Divisional Strategic Projects &gt; $50,000" value="300"/>
+                <element label="UAT Approval" value="400"/>
+            </choice>
+        </element>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Approver Names" mandatory="true" max_length="1024" name="u_approver_names" reference="sys_user" reference_qual="active=true^company=014b109d6f98810069e252a03f3ee448^EQ" reference_qual_condition="active=true^company=014b109d6f98810069e252a03f3ee448^EQ" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Backup Approvers" mandatory="true" max_length="1024" name="u_backup_approvers" reference="sys_user" reference_qual="active=true^company=014b109d6f98810069e252a03f3ee448^EQ" reference_qual_condition="active=true^company=014b109d6f98810069e252a03f3ee448^EQ" type="glide_list"/>
+        <element dependent="u_division" dependent_on_field="u_division" label="Contact" mandatory="true" max_length="32" name="u_contact" reference="sys_user" reference_qual="company=014b109d6f98810069e252a03f3ee448^active=true^EQ" reference_qual_condition="company=014b109d6f98810069e252a03f3ee448^active=true^EQ" type="reference" use_dependent_field="true"/>
+        <element label="Division" mandatory="true" max_length="32" name="u_division" reference="cmn_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_5" type="string"/>
+        <index name="index">
+            <element name="u_division"/>
+        </index>
+        <index name="index2">
+            <element name="u_contact"/>
+        </index>
+    </element>
+</database>
