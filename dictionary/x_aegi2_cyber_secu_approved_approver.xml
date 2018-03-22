@@ -3,10 +3,37 @@
     <element label="Approved Approver" max_length="40" name="x_aegi2_cyber_secu_approved_approver" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="1" label="Approval Type" mandatory="true" max_length="40" name="u_approval_type" type="string">
             <choice>
-                <element label="Divisional Discretionary Projects $10,000 - $50,000" value="200"/>
-                <element label="Divisional Discretionary Requests &lt; $10,000" value="100"/>
-                <element label="Divisional Strategic Projects &gt; $50,000" value="300"/>
-                <element label="UAT Approval" value="400"/>
+                <element label="Approval for implementation" value="Approval for implementation"/>
+                <element label="Asset  Acquisition - Hardware &amp; Software" value="Asset  Acquisition - Hardware &amp; Software"/>
+                <element label="Data Warehouse  Reports   $10,000 to $25,000" value="Data Warehouse Reports $10,000 to $25,000"/>
+                <element label="Data Warehouse  Reports   &lt; $10,000" value="Data Warehouse Reports  &lt; $10,000"/>
+                <element label="Data Warehouse  Reports &gt;  $25,000" value="Data Warehouse Reports &gt; $25,000"/>
+                <element label="Divisional  Discretionary  Projects  &lt; $25,000" value="Divisional Discretionary Projects &lt; $25,000"/>
+                <element label="Divisional  Strategic Projects &gt; $25,000" value="Divisional Strategic Projects &gt; $25,000"/>
+                <element label="E-Discovery - Legal Hold Request" value="E-Discovery - Legal Hold Request"/>
+                <element label="E-Discovery - Other" value="E-Discovery - Other"/>
+                <element label="E-Discovery - Production Hosting Request" value="E-Discovery - Production Hosting Request"/>
+                <element label="E-Discovery - Search &amp; Collection Request (Claims)" value="E-Discovery - Search &amp; Collection Request (Claims)"/>
+                <element label="E-Discovery - Search &amp; Collection Request (Corporate)" value="E-Discovery - Search &amp; Collection Request (Corporate)"/>
+                <element label="E-Discovery - Search &amp; Collection Request (HR)" value="E-Discovery - Search &amp; Collection Request (HR)"/>
+                <element label="Form changes" value="Form changes"/>
+                <element label="Infrastructure  - Changes in access for  Production Applications or Infrastructure" value="Infrastructure  - Changes in access for Production Applications or Infrastructure"/>
+                <element label="Infrastructure  - File/Folder/SharePoint Access (DH)" value="Infrastructure  - File/Folder/SharePoint Access (DH)"/>
+                <element label="Infrastructure  - File/Folder/SharePoint Access (Non-DH)" value="Infrastructure  - File/Folder/SharePoint Access (Non-DH)"/>
+                <element label="Infrastructure  - Mailbox" value="Infrastructure  - Mailbox"/>
+                <element label="Infrastructure  - Offboarding" value="Infrastructure  - Offboarding"/>
+                <element label="Infrastructure  - Onboarding" value="Infrastructure  - Onboarding"/>
+                <element label="IT Requests" value="IT Requests"/>
+                <element label="IT Strategic Projects &gt; $25,000" value="IT Strategic Projects &gt; $25,000"/>
+                <element label="Other" value="Other"/>
+                <element label="Pre-Approved Forms and Website changes" value="Pre-Approved Forms and Website changes"/>
+                <element label="System Requirements" value="System Requirements"/>
+                <element label="Telephony - International Calling" value="Telephony - International Calling"/>
+                <element label="UAT Approval" value="UAT Approval"/>
+                <element label="User access and authorization for SharePoint" value="User access and authorization for SharePoint"/>
+                <element label="User access and authorization requests" value="User access and authorization requests"/>
+                <element label="Vendor system upgrades" value="Vendor system upgrades"/>
+                <element label="Website content changes" value="Website content changes"/>
             </choice>
         </element>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Approver Names" mandatory="true" max_length="1024" name="u_approver_names" reference="sys_user" reference_qual="active=true^company=014b109d6f98810069e252a03f3ee448^EQ" reference_qual_condition="active=true^company=014b109d6f98810069e252a03f3ee448^EQ" type="glide_list"/>
