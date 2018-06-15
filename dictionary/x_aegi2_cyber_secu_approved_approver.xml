@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Approved Approver" max_length="40" name="x_aegi2_cyber_secu_approved_approver" type="collection">
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Approval Type" mandatory="true" max_length="40" name="u_approval_type" type="string">
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Approval Goup(s)" max_length="1024" name="approval_goup_s" reference="sys_user_group" type="glide_list"/>
+        <element attributes="no_truncate=true,edge_encryption_enabled=true" choice="1" display="true" label="Approval Type" mandatory="true" max_length="100" name="u_approval_type" type="string">
             <choice>
-                <element label="Approval for implementation" value="Approval for implementation"/>
+                <element label="Approval for Implementation" value="Approval for Implementation"/>
+                <element label="Approval for Implementation - Forms Only" value="Approval for Implementation - Forms Only"/>
                 <element label="Asset  Acquisition - Hardware &amp; Software" value="Asset  Acquisition - Hardware &amp; Software"/>
                 <element label="Data Warehouse  Reports   $10,000 to $25,000" value="Data Warehouse Reports $10,000 to $25,000"/>
                 <element label="Data Warehouse  Reports   &lt; $10,000" value="Data Warehouse Reports  &lt; $10,000"/>
                 <element label="Data Warehouse  Reports &gt;  $25,000" value="Data Warehouse Reports &gt; $25,000"/>
+                <element label="Data Warehouse Reports &lt; $25,000" value="Data Warehouse Reports &lt; $25,000"/>
                 <element label="Divisional  Discretionary  Projects  &lt; $25,000" value="Divisional Discretionary Projects &lt; $25,000"/>
                 <element label="Divisional  Strategic Projects &gt; $25,000" value="Divisional Strategic Projects &gt; $25,000"/>
                 <element label="E-Discovery - Legal Hold Request" value="E-Discovery - Legal Hold Request"/>
@@ -17,35 +20,37 @@
                 <element label="E-Discovery - Search &amp; Collection Request (Corporate)" value="E-Discovery - Search &amp; Collection Request (Corporate)"/>
                 <element label="E-Discovery - Search &amp; Collection Request (HR)" value="E-Discovery - Search &amp; Collection Request (HR)"/>
                 <element label="Form changes" value="Form changes"/>
+                <element label="HHHH" value="HHHH"/>
                 <element label="Infrastructure  - Changes in access for  Production Applications or Infrastructure" value="Infrastructure  - Changes in access for Production Applications or Infrastructure"/>
                 <element label="Infrastructure  - File/Folder/SharePoint Access (DH)" value="Infrastructure  - File/Folder/SharePoint Access (DH)"/>
                 <element label="Infrastructure  - File/Folder/SharePoint Access (Non-DH)" value="Infrastructure  - File/Folder/SharePoint Access (Non-DH)"/>
                 <element label="Infrastructure  - Mailbox" value="Infrastructure  - Mailbox"/>
                 <element label="Infrastructure  - Offboarding" value="Infrastructure  - Offboarding"/>
                 <element label="Infrastructure  - Onboarding" value="Infrastructure  - Onboarding"/>
+                <element label="Intranet - Documentation" value="Intranet - Documentation"/>
                 <element label="IT Requests" value="IT Requests"/>
                 <element label="IT Strategic Projects &gt; $25,000" value="IT Strategic Projects &gt; $25,000"/>
+                <element label="Online Meeting and Event Registration (Reg123)" value="Online Meeting and Event Registration"/>
                 <element label="Other" value="Other"/>
                 <element label="Pre-Approved Forms and Website changes" value="Pre-Approved Forms and Website changes"/>
+                <element label="Requirements" value="Requirements"/>
                 <element label="System Requirements" value="System Requirements"/>
                 <element label="Telephony - International Calling" value="Telephony - International Calling"/>
                 <element label="UAT Approval" value="UAT Approval"/>
+                <element label="User - OffBoarding" value="User - OffBoarding"/>
+                <element label="User - OnBoarding" value="User - OnBoarding"/>
                 <element label="User access and authorization for SharePoint" value="User access and authorization for SharePoint"/>
                 <element label="User access and authorization requests" value="User access and authorization requests"/>
                 <element label="Vendor system upgrades" value="Vendor system upgrades"/>
+                <element label="Website - Sample Forms and  Endorsements" value="Website - Sample Forms and  Endorsements"/>
                 <element label="Website content changes" value="Website content changes"/>
             </choice>
         </element>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Approver Names" mandatory="true" max_length="1024" name="u_approver_names" reference="sys_user" reference_qual="active=true^company=014b109d6f98810069e252a03f3ee448^EQ" reference_qual_condition="active=true^company=014b109d6f98810069e252a03f3ee448^EQ" type="glide_list"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Backup Approvers" mandatory="true" max_length="1024" name="u_backup_approvers" reference="sys_user" reference_qual="active=true^company=014b109d6f98810069e252a03f3ee448^EQ" reference_qual_condition="active=true^company=014b109d6f98810069e252a03f3ee448^EQ" type="glide_list"/>
-        <element dependent="u_division" dependent_on_field="u_division" label="Contact" mandatory="true" max_length="32" name="u_contact" reference="sys_user" reference_qual="company=014b109d6f98810069e252a03f3ee448^active=true^EQ" reference_qual_condition="company=014b109d6f98810069e252a03f3ee448^active=true^EQ" type="reference" use_dependent_field="true"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Approver Names" max_length="1024" name="u_approver_names" reference="sys_user" reference_qual="active=true^company=014b109d6f98810069e252a03f3ee448^EQ" reference_qual_condition="active=true^company=014b109d6f98810069e252a03f3ee448^EQ" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Backup Approvers" max_length="1024" name="u_backup_approvers" reference="sys_user" reference_qual="active=true^company=014b109d6f98810069e252a03f3ee448^EQ" reference_qual_condition="active=true^company=014b109d6f98810069e252a03f3ee448^EQ" type="glide_list"/>
         <element label="Division" mandatory="true" max_length="32" name="u_division" reference="cmn_department" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_5" type="string"/>
         <index name="index">
             <element name="u_division"/>
-        </index>
-        <index name="index2">
-            <element name="u_contact"/>
         </index>
     </element>
 </database>

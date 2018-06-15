@@ -4,7 +4,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes>no_truncate=true,edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>1</choice>
@@ -18,7 +18,7 @@
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
@@ -30,7 +30,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>true</mandatory>
-        <max_length>40</max_length>
+        <max_length>100</max_length>
         <name>x_aegi2_cyber_secu_approved_approver</name>
         <next_element/>
         <primary>false</primary>
@@ -49,9 +49,9 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>hartmap</sys_created_by>
         <sys_created_on>2018-03-16 15:40:09</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>ff06a80f4f785700f2a00195f110c7a2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>c913c4411385d380b9145cc12244b0d5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Approval Type</sys_name>
         <sys_package display_value="Cyber Security Information" source="x_aegi2_cyber_secu">759e51134f549f408f458a4e0210c7b3</sys_package>
         <sys_policy/>
@@ -59,7 +59,7 @@
         <sys_scope display_value="Cyber Security Information">759e51134f549f408f458a4e0210c7b3</sys_scope>
         <sys_update_name>sys_dictionary_x_aegi2_cyber_secu_approved_approver_u_approval_type</sys_update_name>
         <sys_updated_by>hartmap</sys_updated_by>
-        <sys_updated_on>2018-03-16 17:24:10</sys_updated_on>
+        <sys_updated_on>2018-03-23 19:41:41</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

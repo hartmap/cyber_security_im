@@ -6,7 +6,7 @@
             <element>u_approval_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Approval for implementation</label>
+            <label>Approval for Implementation</label>
             <language>en</language>
             <name>x_aegi2_cyber_secu_approved_approver</name>
             <sequence/>
@@ -14,10 +14,28 @@
             <sys_created_on>2018-03-22 17:51:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>599d73f44f899b008f458a4e0210c71e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>hartmap</sys_updated_by>
-            <sys_updated_on>2018-03-22 17:51:15</sys_updated_on>
-            <value>Approval for implementation</value>
+            <sys_updated_on>2018-03-23 18:15:22</sys_updated_on>
+            <value>Approval for Implementation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approval for Implementation - Forms Only</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_approved_approver</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-23 14:12:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4b25985d1305938036b155912244b050</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-23 18:55:49</sys_updated_on>
+            <value>Approval for Implementation - Forms Only</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -72,6 +90,24 @@
             <sys_updated_by>hartmap</sys_updated_by>
             <sys_updated_on>2018-03-22 17:49:46</sys_updated_on>
             <value>Data Warehouse Reports $10,000 to $25,000</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Data Warehouse Reports &lt; $25,000</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_approved_approver</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-22 18:36:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d8088c011309538036b155912244b0bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-22 18:36:41</sys_updated_on>
+            <value>Data Warehouse Reports &lt; $25,000</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -258,6 +294,24 @@
             <element>u_approval_type</element>
             <hint/>
             <inactive>false</inactive>
+            <label>HHHH</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_approved_approver</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-04-25 15:30:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4e43e6334feddf00f2a00195f110c7e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-04-25 15:30:07</sys_updated_on>
+            <value>HHHH</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval_type</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Infrastructure  - Changes in access for  Production Applications or Infrastructure</label>
             <language>en</language>
             <name>x_aegi2_cyber_secu_approved_approver</name>
@@ -366,6 +420,24 @@
             <element>u_approval_type</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Intranet - Documentation</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_approved_approver</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-23 14:19:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e79614dd1305938036b155912244b03d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-23 14:21:24</sys_updated_on>
+            <value>Intranet - Documentation</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval_type</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>IT Requests</label>
             <language>en</language>
             <name>x_aegi2_cyber_secu_approved_approver</name>
@@ -402,6 +474,24 @@
             <element>u_approval_type</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Online Meeting and Event Registration (Reg123)</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_approved_approver</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-23 14:23:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d69714111345938036b155912244b0af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-23 14:23:18</sys_updated_on>
+            <value>Online Meeting and Event Registration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval_type</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Other</label>
             <language>en</language>
             <name>x_aegi2_cyber_secu_approved_approver</name>
@@ -432,6 +522,24 @@
             <sys_updated_by>hartmap</sys_updated_by>
             <sys_updated_on>2018-03-22 17:55:19</sys_updated_on>
             <value>Pre-Approved Forms and Website changes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requirements</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_approved_approver</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-22 18:28:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0116888d13c5538036b155912244b0eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-22 18:28:16</sys_updated_on>
+            <value>Requirements</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -492,6 +600,42 @@
             <element>u_approval_type</element>
             <hint/>
             <inactive>false</inactive>
+            <label>User - OffBoarding</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_approved_approver</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-23 14:40:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>508b18151345938036b155912244b0fb</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-23 14:40:28</sys_updated_on>
+            <value>User - OffBoarding</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>User - OnBoarding</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_approved_approver</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-23 14:40:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>856b50151345938036b155912244b09f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-23 14:40:12</sys_updated_on>
+            <value>User - OnBoarding</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval_type</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>User access and authorization for SharePoint</label>
             <language>en</language>
             <name>x_aegi2_cyber_secu_approved_approver</name>
@@ -546,6 +690,24 @@
             <element>u_approval_type</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Website - Sample Forms and  Endorsements</label>
+            <language>en</language>
+            <name>x_aegi2_cyber_secu_approved_approver</name>
+            <sequence/>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-23 14:18:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6076189d1305938036b155912244b04c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-23 14:18:16</sys_updated_on>
+            <value>Website - Sample Forms and  Endorsements</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval_type</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Website content changes</label>
             <language>en</language>
             <name>x_aegi2_cyber_secu_approved_approver</name>
@@ -566,8 +728,8 @@
             <sys_created_by>hartmap</sys_created_by>
             <sys_created_on>2018-03-22 17:48:42</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>a10d77b44f899b008f458a4e0210c7d2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>202348411385d380b9145cc12244b0ca</sys_id>
+            <sys_mod_count>14</sys_mod_count>
             <sys_name>u_approval_type</sys_name>
             <sys_package display_value="Cyber Security Information" source="x_aegi2_cyber_secu">759e51134f549f408f458a4e0210c7b3</sys_package>
             <sys_policy/>
@@ -575,7 +737,7 @@
             <sys_scope display_value="Cyber Security Information">759e51134f549f408f458a4e0210c7b3</sys_scope>
             <sys_update_name>sys_choice_x_aegi2_cyber_secu_approved_approver_u_approval_type</sys_update_name>
             <sys_updated_by>hartmap</sys_updated_by>
-            <sys_updated_on>2018-03-22 17:48:42</sys_updated_on>
+            <sys_updated_on>2018-03-23 18:55:49</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

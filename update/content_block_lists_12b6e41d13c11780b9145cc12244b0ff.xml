@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_block_lists">
+    <content_block_lists action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame display_value="Knowledge frame for demo example page">3e435143eff70000914304167b225699</frame>
+        <logged_on>false</logged_on>
+        <maximum_entries>30</maximum_entries>
+        <name>Approved Approvers</name>
+        <omit_if_empty>false</omit_if_empty>
+        <order>u_approval_type</order>
+        <order_direction/>
+        <query/>
+        <script/>
+        <sys_class_name>content_block_lists</sys_class_name>
+        <sys_created_by>hartmap</sys_created_by>
+        <sys_created_on>2018-03-23 15:31:04</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>12b6e41d13c11780b9145cc12244b0ff</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Approved Approvers</sys_name>
+        <sys_package display_value="Cyber Security Information" source="x_aegi2_cyber_secu">759e51134f549f408f458a4e0210c7b3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cyber Security Information">759e51134f549f408f458a4e0210c7b3</sys_scope>
+        <sys_update_name>content_block_lists_12b6e41d13c11780b9145cc12244b0ff</sys_update_name>
+        <sys_updated_by>hartmap</sys_updated_by>
+        <sys_updated_on>2018-03-23 15:48:24</sys_updated_on>
+        <table>x_aegi2_cyber_secu_approved_approver</table>
+        <title>Approved Approvers</title>
+        <type/>
+    </content_block_lists>
+</record_update>

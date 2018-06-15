@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_aegi2_cyber_secu_approved_approver" version="2" view="RPT15b70dd913451780b9145cc12244b07e">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_approval_type</element>
+            <list_id display_value="x_aegi2_cyber_secu_approved_approver" element="NULL" name="x_aegi2_cyber_secu_approved_approver" parent="NULL" relationship="NULL" sys_domain="global" view="1db70dd913451780b9145cc12244b081">a1f1515513851780b9145cc12244b0e5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-23 18:38:17</sys_created_on>
+            <sys_id>29f1515513851780b9145cc12244b0e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-23 18:38:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval_goup_s</element>
+            <list_id display_value="x_aegi2_cyber_secu_approved_approver" element="NULL" name="x_aegi2_cyber_secu_approved_approver" parent="NULL" relationship="NULL" sys_domain="global" view="1db70dd913451780b9145cc12244b081">a1f1515513851780b9145cc12244b0e5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-23 18:38:17</sys_created_on>
+            <sys_id>a9f1515513851780b9145cc12244b0e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-23 18:38:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_approver_names</element>
+            <list_id display_value="x_aegi2_cyber_secu_approved_approver" element="NULL" name="x_aegi2_cyber_secu_approved_approver" parent="NULL" relationship="NULL" sys_domain="global" view="1db70dd913451780b9145cc12244b081">a1f1515513851780b9145cc12244b0e5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-23 18:38:17</sys_created_on>
+            <sys_id>2df1515513851780b9145cc12244b0e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-23 18:38:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_backup_approvers</element>
+            <list_id display_value="x_aegi2_cyber_secu_approved_approver" element="NULL" name="x_aegi2_cyber_secu_approved_approver" parent="NULL" relationship="NULL" sys_domain="global" view="1db70dd913451780b9145cc12244b081">a1f1515513851780b9145cc12244b0e5</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-23 18:38:17</sys_created_on>
+            <sys_id>adf1515513851780b9145cc12244b0e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-23 18:38:17</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_aegi2_cyber_secu_approved_approver</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-23 18:38:17</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>a1f1515513851780b9145cc12244b0e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_aegi2_cyber_secu_approved_approver</sys_name>
+            <sys_package display_value="Cyber Security Information" source="x_aegi2_cyber_secu">759e51134f549f408f458a4e0210c7b3</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Cyber Security Information">759e51134f549f408f458a4e0210c7b3</sys_scope>
+            <sys_update_name>sys_ui_list_x_aegi2_cyber_secu_approved_approver_RPT15b70dd913451780b9145cc12244b07e</sys_update_name>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-23 18:38:17</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt15b70dd913451780b9145cc12244b07e" name="RPT15b70dd913451780b9145cc12244b07e">1db70dd913451780b9145cc12244b081</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

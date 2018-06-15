@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_ui_section caption="Division" section_id="48854d074ff85700f2a00195f110c76b" sys_domain="global" table="x_aegi2_cyber_secu_approved_approver" version="3" view="">
+    <sys_ui_section caption="" section_id="48854d074ff85700f2a00195f110c76b" sys_domain="global" table="x_aegi2_cyber_secu_approved_approver" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>hartmap</sys_created_by>
-            <sys_created_on>2018-03-16 18:01:43</sys_created_on>
-            <sys_id>ad760d474ff85700f2a00195f110c7a1</sys_id>
+            <sys_created_on>2018-03-23 19:44:08</sys_created_on>
+            <sys_id>c201e51513c51780b9145cc12244b0a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>hartmap</sys_updated_by>
-            <sys_updated_on>2018-03-16 18:01:43</sys_updated_on>
+            <sys_updated_on>2018-03-23 19:44:08</sys_updated_on>
             <text/>
             <type display_value="Info Box White">ad8fa200855e210077dd7de8d044ef8d</type>
         </sys_ui_annotation>
@@ -16,13 +16,13 @@
             <element>u_division</element>
             <position>0</position>
             <sys_created_by>hartmap</sys_created_by>
-            <sys_created_on>2018-03-16 18:01:43</sys_created_on>
-            <sys_id>61760d474ff85700f2a00195f110c7a2</sys_id>
+            <sys_created_on>2018-03-23 19:44:08</sys_created_on>
+            <sys_id>ca01e51513c51780b9145cc12244b0a5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Division" display_value="Division" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
             <sys_updated_by>hartmap</sys_updated_by>
-            <sys_updated_on>2018-03-16 18:01:43</sys_updated_on>
+            <sys_updated_on>2018-03-23 19:44:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -30,27 +30,27 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>hartmap</sys_created_by>
-            <sys_created_on>2018-03-16 18:01:43</sys_created_on>
-            <sys_id>e1760d474ff85700f2a00195f110c7a2</sys_id>
+            <sys_created_on>2018-03-23 19:44:08</sys_created_on>
+            <sys_id>8201e51513c51780b9145cc12244b0a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Division" display_value="Division" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
             <sys_updated_by>hartmap</sys_updated_by>
-            <sys_updated_on>2018-03-16 18:01:43</sys_updated_on>
+            <sys_updated_on>2018-03-23 19:44:08</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_contact</element>
+            <element>u_division.u_approved_approver_contact</element>
             <position>2</position>
             <sys_created_by>hartmap</sys_created_by>
-            <sys_created_on>2018-03-16 18:01:43</sys_created_on>
-            <sys_id>65760d474ff85700f2a00195f110c7a2</sys_id>
+            <sys_created_on>2018-03-23 19:44:08</sys_created_on>
+            <sys_id>0601e51513c51780b9145cc12244b0a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Division" display_value="Division" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
             <sys_updated_by>hartmap</sys_updated_by>
-            <sys_updated_on>2018-03-16 18:01:43</sys_updated_on>
+            <sys_updated_on>2018-03-23 19:44:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -58,27 +58,27 @@
             <element>.end_split</element>
             <position>3</position>
             <sys_created_by>hartmap</sys_created_by>
-            <sys_created_on>2018-03-16 18:01:43</sys_created_on>
-            <sys_id>e5760d474ff85700f2a00195f110c7a2</sys_id>
+            <sys_created_on>2018-03-23 19:44:08</sys_created_on>
+            <sys_id>8601e51513c51780b9145cc12244b0a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Division" display_value="Division" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
             <sys_updated_by>hartmap</sys_updated_by>
-            <sys_updated_on>2018-03-16 18:01:43</sys_updated_on>
+            <sys_updated_on>2018-03-23 19:44:08</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>ad760d474ff85700f2a00195f110c7a1</element>
+            <element>c201e51513c51780b9145cc12244b0a5</element>
             <position>4</position>
             <sys_created_by>hartmap</sys_created_by>
-            <sys_created_on>2018-03-16 18:01:43</sys_created_on>
-            <sys_id>69760d474ff85700f2a00195f110c7a2</sys_id>
+            <sys_created_on>2018-03-23 19:44:08</sys_created_on>
+            <sys_id>0a01e51513c51780b9145cc12244b0a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Division" display_value="Division" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
             <sys_updated_by>hartmap</sys_updated_by>
-            <sys_updated_on>2018-03-16 18:01:43</sys_updated_on>
+            <sys_updated_on>2018-03-23 19:44:08</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -86,13 +86,13 @@
             <element>u_approval_type</element>
             <position>5</position>
             <sys_created_by>hartmap</sys_created_by>
-            <sys_created_on>2018-03-16 18:01:43</sys_created_on>
-            <sys_id>e9760d474ff85700f2a00195f110c7a2</sys_id>
+            <sys_created_on>2018-03-23 19:44:08</sys_created_on>
+            <sys_id>8a01e51513c51780b9145cc12244b0a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Division" display_value="Division" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
             <sys_updated_by>hartmap</sys_updated_by>
-            <sys_updated_on>2018-03-16 18:01:43</sys_updated_on>
+            <sys_updated_on>2018-03-23 19:44:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -100,13 +100,13 @@
             <element>.begin_split</element>
             <position>6</position>
             <sys_created_by>hartmap</sys_created_by>
-            <sys_created_on>2018-03-16 18:01:43</sys_created_on>
-            <sys_id>6d760d474ff85700f2a00195f110c7a2</sys_id>
+            <sys_created_on>2018-03-23 19:44:08</sys_created_on>
+            <sys_id>0e01e51513c51780b9145cc12244b0a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Division" display_value="Division" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
             <sys_updated_by>hartmap</sys_updated_by>
-            <sys_updated_on>2018-03-16 18:01:43</sys_updated_on>
+            <sys_updated_on>2018-03-23 19:44:08</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -114,57 +114,71 @@
             <element>u_approver_names</element>
             <position>7</position>
             <sys_created_by>hartmap</sys_created_by>
-            <sys_created_on>2018-03-16 18:01:43</sys_created_on>
-            <sys_id>ed760d474ff85700f2a00195f110c7a2</sys_id>
+            <sys_created_on>2018-03-23 19:44:08</sys_created_on>
+            <sys_id>8e01e51513c51780b9145cc12244b0a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Division" display_value="Division" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
             <sys_updated_by>hartmap</sys_updated_by>
-            <sys_updated_on>2018-03-16 18:01:43</sys_updated_on>
+            <sys_updated_on>2018-03-23 19:44:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval_goup_s</element>
+            <position>8</position>
+            <sys_created_by>hartmap</sys_created_by>
+            <sys_created_on>2018-03-23 19:44:08</sys_created_on>
+            <sys_id>0201e51513c51780b9145cc12244b0a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
+            <sys_updated_by>hartmap</sys_updated_by>
+            <sys_updated_on>2018-03-23 19:44:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>hartmap</sys_created_by>
-            <sys_created_on>2018-03-16 18:01:43</sys_created_on>
-            <sys_id>61760d474ff85700f2a00195f110c7a3</sys_id>
+            <sys_created_on>2018-03-23 19:44:08</sys_created_on>
+            <sys_id>8201e51513c51780b9145cc12244b0a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Division" display_value="Division" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
             <sys_updated_by>hartmap</sys_updated_by>
-            <sys_updated_on>2018-03-16 18:01:43</sys_updated_on>
+            <sys_updated_on>2018-03-23 19:44:08</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_backup_approvers</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>hartmap</sys_created_by>
-            <sys_created_on>2018-03-16 18:01:43</sys_created_on>
-            <sys_id>e1760d474ff85700f2a00195f110c7a3</sys_id>
+            <sys_created_on>2018-03-23 19:44:08</sys_created_on>
+            <sys_id>0601e51513c51780b9145cc12244b0a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Division" display_value="Division" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
             <sys_updated_by>hartmap</sys_updated_by>
-            <sys_updated_on>2018-03-16 18:01:43</sys_updated_on>
+            <sys_updated_on>2018-03-23 19:44:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption>Division</caption>
+            <caption/>
             <header>false</header>
             <name>x_aegi2_cyber_secu_approved_approver</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>hartmap</sys_created_by>
             <sys_created_on>2018-03-16 17:57:31</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
+            <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>48854d074ff85700f2a00195f110c76b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Division</sys_name>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_name>x_aegi2_cyber_secu_approved_approver</sys_name>
             <sys_overrides/>
             <sys_package display_value="Cyber Security Information" source="x_aegi2_cyber_secu">759e51134f549f408f458a4e0210c7b3</sys_package>
             <sys_policy/>
@@ -172,7 +186,7 @@
             <sys_scope display_value="Cyber Security Information">759e51134f549f408f458a4e0210c7b3</sys_scope>
             <sys_update_name>sys_ui_section_48854d074ff85700f2a00195f110c76b</sys_update_name>
             <sys_updated_by>hartmap</sys_updated_by>
-            <sys_updated_on>2018-03-16 17:57:31</sys_updated_on>
+            <sys_updated_on>2018-03-23 19:44:08</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>

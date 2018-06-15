@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="content_page" unload_date="2018-06-15 13:39:40">
+    <sys_portal action="delete_multiple" query="page=2837ec1d13c11780b9145cc12244b096">
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone_content</dropzone>
+                <offset>0</offset>
+                <page display_value="Approved Approvers">2837ec1d13c11780b9145cc12244b096</page>
+                <summary/>
+                <sys_created_by>hartmap</sys_created_by>
+                <sys_created_on>2018-03-23 18:32:52</sys_created_on>
+                <sys_id>56b0511513851780b9145cc12244b09c</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>hartmap</sys_updated_by>
+                <sys_updated_on>2018-03-23 18:32:52</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-03-23 14:32:52">56b0511513851780b9145cc12244b09c</portal_section>
+                        <sys_created_by>hartmap</sys_created_by>
+                        <sys_created_on>2018-03-23 18:32:52</sys_created_on>
+                        <sys_id>12b0511513851780b9145cc12244b09e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hartmap</sys_updated_by>
+                        <sys_updated_on>2018-03-23 18:32:52</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-03-23 14:32:52">56b0511513851780b9145cc12244b09c</portal_section>
+                        <sys_created_by>hartmap</sys_created_by>
+                        <sys_created_on>2018-03-23 18:32:52</sys_created_on>
+                        <sys_id>16b0511513851780b9145cc12244b09d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hartmap</sys_updated_by>
+                        <sys_updated_on>2018-03-23 18:32:52</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2018-03-23 14:32:52">56b0511513851780b9145cc12244b09c</portal_section>
+                        <sys_created_by>hartmap</sys_created_by>
+                        <sys_created_on>2018-03-23 18:32:52</sys_created_on>
+                        <sys_id>16b0511513851780b9145cc12244b09f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hartmap</sys_updated_by>
+                        <sys_updated_on>2018-03-23 18:32:52</sys_updated_on>
+                        <value>2837ec1d13c11780b9145cc12244b096</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-03-23 14:32:52">56b0511513851780b9145cc12244b09c</portal_section>
+                        <sys_created_by>hartmap</sys_created_by>
+                        <sys_created_on>2018-03-23 18:32:52</sys_created_on>
+                        <sys_id>1eb0511513851780b9145cc12244b09e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hartmap</sys_updated_by>
+                        <sys_updated_on>2018-03-23 18:32:52</sys_updated_on>
+                        <value>Approved Approvers - My Division by Approval Type</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2018-03-23 14:32:52">56b0511513851780b9145cc12244b09c</portal_section>
+                        <sys_created_by>hartmap</sys_created_by>
+                        <sys_created_on>2018-03-23 18:32:52</sys_created_on>
+                        <sys_id>96b0511513851780b9145cc12244b09e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hartmap</sys_updated_by>
+                        <sys_updated_on>2018-03-23 18:32:52</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-03-23 14:32:52">56b0511513851780b9145cc12244b09c</portal_section>
+                        <sys_created_by>hartmap</sys_created_by>
+                        <sys_created_on>2018-03-23 18:32:52</sys_created_on>
+                        <sys_id>9ab0511513851780b9145cc12244b09d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hartmap</sys_updated_by>
+                        <sys_updated_on>2018-03-23 18:32:52</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-03-23 14:32:52">56b0511513851780b9145cc12244b09c</portal_section>
+                        <sys_created_by>hartmap</sys_created_by>
+                        <sys_created_on>2018-03-23 18:32:52</sys_created_on>
+                        <sys_id>d6b0511513851780b9145cc12244b09c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>hartmap</sys_updated_by>
+                        <sys_updated_on>2018-03-23 18:32:52</sys_updated_on>
+                        <value>15b70dd913451780b9145cc12244b07e</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal>
+    <content_page action="INSERT_OR_UPDATE">
+        <content_site display_value="AEGIS">123bfc651d1c5d0058486533309e365f</content_site>
+        <content_theme display_value="SM Theme">5497c69f080751006f7169ab4fb955ab</content_theme>
+        <description/>
+        <frame_buster>false</frame_buster>
+        <layout display_value="AEGIS SP Layout ">21f4aedb4f66420021b850ee0310c79d</layout>
+        <model_id/>
+        <model_table/>
+        <name>Approved Approvers</name>
+        <order/>
+        <parent_page display_value="AEGIS">891bcda24f3a86006fbf58211310c77d</parent_page>
+        <read_roles>public</read_roles>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>content_page</sys_class_name>
+        <sys_created_by>hartmap</sys_created_by>
+        <sys_created_on>2018-03-23 15:32:17</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>2837ec1d13c11780b9145cc12244b096</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Approved Approvers</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Cyber Security Information" source="x_aegi2_cyber_secu">759e51134f549f408f458a4e0210c7b3</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Cyber Security Information">759e51134f549f408f458a4e0210c7b3</sys_scope>
+        <sys_update_name>content_page_2837ec1d13c11780b9145cc12244b096</sys_update_name>
+        <sys_updated_by>hartmap</sys_updated_by>
+        <sys_updated_on>2018-03-23 19:18:17</sys_updated_on>
+        <title>Approved Approvers</title>
+        <url_suffix>approved_approvers</url_suffix>
+        <user/>
+        <view/>
+        <workflow_state>published</workflow_state>
+    </content_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=2837ec1d13c11780b9145cc12244b096"/>
+</record_update>

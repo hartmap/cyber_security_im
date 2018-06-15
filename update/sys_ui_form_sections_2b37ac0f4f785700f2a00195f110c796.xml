@@ -10,7 +10,7 @@
             <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_aegi2_cyber_secu_approved_approver" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">2b37ac0f4f785700f2a00195f110c796</sys_ui_form>
-            <sys_ui_section caption="Division" display_value="Division" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_aegi2_cyber_secu_approved_approver" sys_domain="global" view="Default view">48854d074ff85700f2a00195f110c76b</sys_ui_section>
             <sys_updated_by>hartmap</sys_updated_by>
             <sys_updated_on>2018-03-16 17:58:35</sys_updated_on>
         </sys_ui_form_section>

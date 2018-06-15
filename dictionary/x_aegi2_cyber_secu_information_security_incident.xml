@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="incident" label="Information Security Incident" max_length="40" name="x_aegi2_cyber_secu_information_security_incident" type="collection">
+    <element audit="true" extends="incident" label="Information Security Incident" max_length="40" name="x_aegi2_cyber_secu_information_security_incident" sizeclass="1" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Impact" max_length="4000" name="cs_impact" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Remediation Summary" max_length="4000" name="cs_remediation_summary" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Root Cause" max_length="4000" name="cs_root_cause" type="string"/>

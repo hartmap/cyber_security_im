@@ -29,7 +29,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="">glide_list</internal_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>1024</max_length>
         <name>x_aegi2_cyber_secu_approved_approver</name>
         <next_element/>
@@ -52,9 +52,9 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>hartmap</sys_created_by>
         <sys_created_on>2018-03-16 15:13:19</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>f2ef58c74f785700f2a00195f110c7c7</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4913c4411385d380b9145cc12244b0da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Backup Approvers</sys_name>
         <sys_package display_value="Cyber Security Information" source="x_aegi2_cyber_secu">759e51134f549f408f458a4e0210c7b3</sys_package>
         <sys_policy/>
@@ -62,7 +62,7 @@
         <sys_scope display_value="Cyber Security Information">759e51134f549f408f458a4e0210c7b3</sys_scope>
         <sys_update_name>sys_dictionary_x_aegi2_cyber_secu_approved_approver_u_backup_approvers</sys_update_name>
         <sys_updated_by>hartmap</sys_updated_by>
-        <sys_updated_on>2018-03-16 15:38:15</sys_updated_on>
+        <sys_updated_on>2018-03-23 12:39:39</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
